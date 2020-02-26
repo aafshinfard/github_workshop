@@ -15,7 +15,9 @@ Contents
 Before the workshop
 ==============
 * Make sure you have git installed on your system. Need a link?
+
 	https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
 * Sign up for a github account. www.github.com
 * Setup your account on your system:
 
