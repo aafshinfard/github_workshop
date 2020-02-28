@@ -68,9 +68,9 @@ Then you need to create a repository on github with the same name, and then:
 ```bash
 $ git remote add origin remote repository URL		# Sets the new remote
 $ git remote -v						# Verifies the new remote URL
-```bash
+```
 
-##### Start building up your project
+#### Start building up your project
 
 ```bash
 > git add				#add files to the stage (from working irectory to staging area)
