@@ -56,6 +56,7 @@ Open you terminal or command-line (cmd).
 You have 2 options to create a new repository. You can start the remote repository and clone (download) it. Or you can create your local repository and then upload it to your github account. The first option is much easier and involves fewer steps.
 
 * Option 1:
+Got to the github website an create a repository under your account. Then:
 ```bash
 > git clone "Repository URL" 			#initialize a repo
 ```
