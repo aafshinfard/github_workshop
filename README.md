@@ -6,8 +6,10 @@ Contents
 ========
 
 * [Before the workshop](#before-the-workshop)
+* [Introduction](#introduction)
+* [Github.com](#Github.com)
 * [Basics](#basics)
-* [Team projects Basics](#team-projects-basics)
+* [Group projects](#group-projects)
 * [Bonus - Extra Tricks](#bonus---extra-tricks)
 
 
