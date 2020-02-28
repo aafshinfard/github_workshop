@@ -48,8 +48,7 @@ Basics
 Open you terminal or command-line (cmd).
 Go to a specific folder/directory (using `dir` or `cd` command)
 ```bash
-> cd /home/my_project/ 		# for linux
-> cd /home/my_project/ 		# for windows
+> cd /home/my_project/ 		# change the directory. (linux and windows (and mac?))
 ```
 and use the command below to init a new repository. The name will be the same as the directory's name in which you are running the command.
 	
