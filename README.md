@@ -44,22 +44,23 @@ git config --help
 Basics
 ======
 
-##### Create a new repo
+
 Open you terminal or command-line (cmd).
-* Go to a specific folder/directory (using `dir` or `cd` command)
+##### Go to a specific folder/directory (using `dir` or `cd` command)
 ```bash
 > cd /home/my_project/ 		# change the directory. (linux and windows (and mac?))
 ```
- * Create a new repository (local and online):
+
+##### Create a new repository (local and online):
 
 You have 2 options to create a new repository. You can start the remote repository and clone (download) it. Or you can create your local repository and then upload it to your github account. The first option is much easier and involves fewer steps.
 
-Option 1:
+* Option 1:
 ```bash
 > git clone "Repository URL" 			#initialize a repo
 ```
 or
-Option 2:
+* Option 2:
 ```bash
 > git init 			#initialize a repo
 ```
@@ -69,7 +70,7 @@ $ git remote add origin remote repository URL		# Sets the new remote
 $ git remote -v						# Verifies the new remote URL
 ```bash
 
-* Start building up your project
+##### Start building up your project
 
 ```bash
 > git add				#add files to the stage (from working irectory to staging area)
