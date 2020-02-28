@@ -32,6 +32,13 @@ You can double check the config using the following command:
 ```bash
 git config --list
 ```
+or learn more about configuring your repository using:
+```bash
+git config --help
+```
+
+* We will be mostly using `terminal/command-line` to work with git and github. If you are not familiar with commands and working with terminal, you can take a look at this [introduction for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview). If you are using windows, here it is a [list of commands](https://www.thomas-krenn.com/en/wiki/Cmd_commands_under_Windows).
+
 
 
 Basics
@@ -42,10 +49,27 @@ Open you terminal or command-line (cmd).
 Go to a specific folder/directory (using `dir` or `cd` command)
 ```bash
 > cd /home/my_project/ 		# for linux
-> dir /home/my_project/ 	# for windows
+> cd /home/my_project/ 		# for windows
 ```
 and use the command below to init a new repository. The name will be the same as the directory's name in which you are running the command.
 	
 ```bash
-> git init
+> git init 			#initialize a repo
 ```
+
+```bash
+> git status			#check the status of your repo
+```
+
+
+
+```bash
+> git add				#add files to the stage (from working irectory to staging area)
+> git commit -m "commit-message"	#add a checkpoint to your local repo (from staging area to local repo)
+> git push origin master		#push changes to the remote repo (from local repo to remote repo)
+> git pull origin master		#pull changes from the remote repo (from remote repo to local repo)
+```
+
+
+
+
