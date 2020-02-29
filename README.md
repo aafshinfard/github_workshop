@@ -10,7 +10,7 @@ Contents
 * [Github.com](#Github.com)
 * [Basics](#basics)
 * [Group projects](#group-projects)
-* [Bonus - Extra Tricks](#bonus---extra-tricks)
+* [Bonus](#bonus)
 
 
 Before the workshop
@@ -114,4 +114,32 @@ To resolve the conflicts you have two options:
 > git rebase origin/master		# Add master changes to your local branch
 > git push -f 				# force push your local rebased branch into your remote branch
 ```
+
+### Contribute to projects owned by others
+
+First fork their repo to your account, clone your fork to your local machine, submit the changes, and then:
+
+Add a remote to the main repo (upstream):
+```bash
+git remote add upstream "address"	#(https://github.com/afshinfard/github_workshop.git)
+git remote -v
+```
+
+Update your local repo/branch using the upstream repo/branch:
+```bash
+git fetch upstream 			# Fetch all the changes in the upstream repo
+git checkout "branch-name"		# checkout (switch to) the branch you want to merge
+git merge upstream/"branch-name"	# Upates your branch with the upstream repo/branch
+```
+
+Push changes to the remote repos/branches:
+```bash
+git push origin "branch-name"		# push to your own remote repo
+git push upstream "branch-name"		# push to upstream remote repo
+```
+
+Bonus
+==============
+
+### Make a README.md
 
