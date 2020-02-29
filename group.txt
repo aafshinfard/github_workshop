@@ -7,7 +7,7 @@ Edalatfar
 Azimi
 Pourzahedi
 Mousemi
-Ashjaee
+Ashjaee, Nima
 Nouri
 Arefi
 Dehghani
@@ -19,7 +19,7 @@ Faridi Rad
 Kazemi
 Jalalkamali
 Mansouri
-Ghorbaninejad
+Kasra Ghorbaninejad
 Abbas Nikbakht
 Gholami
 Shariatzadeh
