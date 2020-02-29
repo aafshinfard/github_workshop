@@ -83,7 +83,35 @@ you can check the satus of your reposity using:
 ```bash
 > git status			#check the status of your repo
 ```
+or compare your stage with your local repository using:
+```bash
+git diff --staged
+```
+
+Group Projects
+==============
 
 
+### Branching
+Create a new branch an switch to it:
+```bash
+git checkout -b "branch-name"
+```
+Make some changes to your file, and push it to your remote repo. Then check your github repository using the website. Where are the new changes?
 
+### Merging (Pull Request)
+Use the website and go to the branch you want to merge to `master`. Hit the button `create a pull request`.
+
+If there's no conflict you can simply `merge`, if there's, then you need to resolve conflicts before merging. 
+
+To resolve the conflicts you have two options:
+(a) Using the website. Make sure you update your local repos using `pull` afterward.
+(b) Using command-line and `git`:
+
+```bash
+> git fetch origin	 		# fetch the whole remote
+> git checkout "branch-name"		# checkot to your local branch, if you're not
+> git rebase origin/master		# Add master changes to your local branch
+> git push -f 				# force push your local rebased branch into your remote branch
+```
 
