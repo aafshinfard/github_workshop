@@ -67,7 +67,7 @@ or
 ```
 Then you need to create a repository on github with the same name, and then:
 ```bash
-$ git remote add origin remote repository URL		# Sets the new remote
+$ git remote add origin remote "repository-URL"		# Sets the new remote
 $ git remote -v						# Verifies the new remote URL
 ```
 
