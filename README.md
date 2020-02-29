@@ -15,6 +15,7 @@ Contents
 * [Basics](#basics)
 * [Group projects](#group-projects)
 * [Forking](#forking)
+* [Excercise](#excercise)
 * [Bonus](#bonus)
 
 
@@ -154,7 +155,7 @@ The last step may or may not work based on your permissions. If it did not, you 
 
 Excercise
 ==============
-Using the instructions in the [previous sections](forking), fork this repository into your account, fetch/pull it into your machine, add your nme to `group.txt`, push it into your forked repo, and open a pull request so I merge your edits to my account.
+Using the instructions in the [previous sections](#forking), fork this repository into your account, fetch/pull it into your machine, add your nme to `group.txt`, push it into your forked repo, and open a pull request so I merge your edits to my account.
 
 Bonus
 ==============
