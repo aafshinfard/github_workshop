@@ -51,9 +51,10 @@ Basics
 ======
 
 
-Open you terminal or command-line (cmd).
+Open your terminal or command-line (cmd).
 ### Go to a specific folder/directory
 ```bash
+$ mkdir /home/my_project	# Make a new directory (folder) under /home/ named my project
 $ cd /home/my_project/ 		# change the directory. (linux and windows (and mac?))
 ```
 
